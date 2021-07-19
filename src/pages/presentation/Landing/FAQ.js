@@ -64,14 +64,15 @@ function FAQ() {
     <Wrapper pt={20} pb={16}>
       <Container>
         <TypographyOverline variant="body2" gutterBottom>
-          Material App
+          Hubi
         </TypographyOverline>
         <Typography variant="h2" component="h3" gutterBottom>
-          Frequently asked questions
+          Preguntas Frequentes
         </Typography>
         <Typography variant="subtitle1" color="textSecondary" gutterBottom>
-          The questions below have been selected from those most commonly asked
-          by our customers.
+          Encuentra preguntas y respuestas de nuestra comunidad. Si no
+          encontraras una respuesta suficientemente buena, no dudes en hacernos
+          llegar tu pregunta.
         </Typography>
         <Spacer mb={8} />
 
@@ -132,8 +133,8 @@ function FAQ() {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography variant="subtitle1" color="textSecondary">
-                  Yes, Material App has been thoroughly tested with npm and yarn
-                  (LTS versions).
+                  Yes, Hubi has been thoroughly tested with npm and yarn (LTS
+                  versions).
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -167,10 +168,8 @@ function FAQ() {
               <AccordionDetails>
                 <Typography variant="subtitle1" color="textSecondary">
                   You can use our dedicated support email (
-                  <Link href="mailto:support@bootlab.io">
-                    support@bootlab.io
-                  </Link>
-                  ) to send your issues or feedback. We are here to help.
+                  <Link href="mailto:support@hubi.lam">support@hubi.lam</Link>)
+                  to send your issues or feedback. We are here to help.
                 </Typography>
               </AccordionDetails>
             </Accordion>

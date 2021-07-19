@@ -43,7 +43,7 @@ const AppBarComponent = () => (
             <Grid item>
               <Brand>
                 <BrandIcon />
-                Material App
+                Hubi
               </Brand>
             </Grid>
             <Grid item xs />
@@ -67,7 +67,7 @@ const AppBarComponent = () => (
                 >
                   Documentation
                 </Button>
-                <Button ml={2} color="inherit" href="mailto:info@bootlab.io">
+                <Button ml={2} color="inherit" href="mailto:info@hubi.lam">
                   Support
                 </Button>
               </Hidden>
@@ -78,7 +78,7 @@ const AppBarComponent = () => (
                 href="https://material-ui.com/store/items/material-app/"
                 target="_blank"
               >
-                Get Material App
+                Get Hubi
               </Button>
             </Grid>
           </Grid>

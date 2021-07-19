@@ -196,7 +196,7 @@ function IconMenu() {
 }
 
 const options = [
-  "Show some love to Material-UI",
+  "Show some love to Hubi",
   "Show all notification content",
   "Hide sensitive notification content",
   "Hide all notification content",

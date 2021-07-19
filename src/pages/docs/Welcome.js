@@ -28,10 +28,10 @@ function Introduction() {
         Introduction
       </Typography>
       <Typography variant="subtitle1" gutterBottom my={4}>
-        Hello, I hope you find this theme useful. Material App has been crafted
-        on top of Material UI. The included demo pages don't replace the
-        official ones, but provide a clear view of all new components and
-        extended styles that this theme provides on top of Material UI.
+        Hello, I hope you find this theme useful. Hubi has been crafted on top
+        of Material UI. The included demo pages don't replace the official ones,
+        but provide a clear view of all new components and extended styles that
+        this theme provides on top of Material UI.
       </Typography>
       <Typography variant="subtitle1" gutterBottom my={4}>
         The docs includes information to understand how the theme is organized,
@@ -121,8 +121,8 @@ function SomethingMissing() {
       <Typography variant="subtitle1" gutterBottom my={4}>
         If something is missing in the documentation or if you found some part
         confusing, please send us an email (
-        <Link href="mailto:support@bootlab.io">support@bootlab.io</Link>) with
-        your suggestions for improvement. We love hearing from you!
+        <Link href="mailto:support@hubi.lam">support@hubi.lam</Link>) with your
+        suggestions for improvement. We love hearing from you!
       </Typography>
     </Box>
   );

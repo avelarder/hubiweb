@@ -126,7 +126,7 @@ function MaterialUIPickersDatePicker() {
     <Card mb={6}>
       <CardContent>
         <Typography variant="h6" gutterBottom>
-          Material-UI pickers | Date picker
+          Hubi pickers | Date picker
         </Typography>
         <Typography variant="body2" gutterBottom>
           Date pickers use a dialog window or an inline popover to select a
@@ -154,7 +154,7 @@ function MaterialUIPickersTimePicker() {
     <Card mb={6}>
       <CardContent>
         <Typography variant="h6" gutterBottom>
-          Material-UI pickers | Time picker
+          Hubi pickers | Time picker
         </Typography>
         <Typography variant="body2" gutterBottom>
           Time pickers use a dialog to select a single time (in the
@@ -182,7 +182,7 @@ function MaterialUIPickersDateAndTimePicker() {
     <Card mb={6}>
       <CardContent>
         <Typography variant="h6" gutterBottom>
-          Material-UI pickers | Date & Time picker
+          Hubi pickers | Date & Time picker
         </Typography>
         <Typography variant="body2" gutterBottom>
           Time pickers use a dialog to select a single time (in the

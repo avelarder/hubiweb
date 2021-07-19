@@ -21,7 +21,7 @@ import {
   Users,
 } from "react-feather";
 
-// All pages that rely on 3rd party components (other than Material-UI) are
+// All pages that rely on 3rd party components (other than Hubi) are
 // loaded asynchronously, to keep the initial JS bundle to a minimum size
 
 // Guards
@@ -458,7 +458,7 @@ const landingRoutes = {
 const documentationRoutes = {
   id: "Documentation",
   path: "/documentation",
-  header: "Material App",
+  header: "Hubi",
   icon: <BookOpen />,
   children: [
     {

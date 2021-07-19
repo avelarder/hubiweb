@@ -82,32 +82,7 @@ const Demo = ({ theme, title, img, newDemo = false }) => {
 };
 
 function Variants() {
-  return (
-    <Wrapper pt={16} pb={20}>
-      <Container>
-        <TypographyOverline variant="body2" gutterBottom>
-          Variants
-        </TypographyOverline>
-        <Typography variant="h2" component="h3" gutterBottom>
-          Multiple color schemes
-        </Typography>
-        <Typography variant="subtitle1" color="textSecondary" gutterBottom>
-          The package includes 50+ prebuilt pages, 6 theme variants and 3
-          prebuilt dashboards.
-        </Typography>
-        <Box mb={8} />
-
-        <Grid container spacing={6}>
-          <Demo theme={THEMES.DEFAULT} title="Default variant" img="default" />
-          <Demo theme={THEMES.BLUE} title="Blue variant" img="blue" />
-          <Demo theme={THEMES.DARK} title="Dark variant" img="dark" newDemo />
-          <Demo theme={THEMES.GREEN} title="Green variant" img="green" />
-          <Demo theme={THEMES.INDIGO} title="Indigo variant" img="indigo" />
-          <Demo theme={THEMES.LIGHT} title="Light variant" img="light" />
-        </Grid>
-      </Container>
-    </Wrapper>
-  );
+  return <></>;
 }
 
 export default Variants;

@@ -75,7 +75,7 @@ function InvoiceDetails() {
                       Hello Anna Walley,
                       <br />
                       This is the receipt for a payment of $268.85 (USD) you
-                      made to Material App.
+                      made to Hubi.
                     </Typography>
                   </Grid>
                   <Grid item xs={12} md={6}>
@@ -114,7 +114,7 @@ function InvoiceDetails() {
                       Payment To
                     </Typography>
                     <Typography variant="body2" align="right">
-                      Material App LLC
+                      Hubi LLC
                       <br />
                       354 Roy Alley
                       <br />
@@ -124,9 +124,7 @@ function InvoiceDetails() {
                       <br />
                       USA
                       <br />
-                      <Link href="mailto:info@material-app.com">
-                        info@material-app.com
-                      </Link>
+                      <Link href="mailto:info@hubi.lam">info@hubi.lam</Link>
                     </Typography>
                   </Grid>
                 </Grid>
@@ -144,7 +142,7 @@ function InvoiceDetails() {
                 <TableBody>
                   <TableRow>
                     <TableCell component="th" scope="row">
-                      Material App Theme Customization
+                      Hubi Theme Customization
                     </TableCell>
                     <TableCell>2</TableCell>
                     <TableCell align="right">$150.00</TableCell>

@@ -111,15 +111,16 @@ function Introduction() {
           <Grid item xs={12} sm={9} md={8} lg={7}>
             <Content>
               <Title variant="h1" gutterBottom>
-                Modern, Flexible and Responsive <span>Material-UI</span> Admin
-                Template
+                <span>Hubi</span> Tu comunidad en línea.
               </Title>
               <Grid container justify="center" spacing={4}>
                 <Grid item xs={12} lg={10}>
                   <Subtitle color="textSecondary">
-                    Material App comes with hundreds of UI elements, forms,
-                    tables, charts, pages and icons that helps you to create
-                    your web apps or applications faster.
+                    Hubi tiene la misión de generar un comunidad de propietarios
+                    e inquilinos, servicios, compra/venta, mensajería entre
+                    otros. Encuentra de todo, genera relaciones, vende/compra
+                    tus propiedades o cualquier artículo que creas tenga valor
+                    para alguien más en la comunidad.
                   </Subtitle>
                 </Grid>
               </Grid>
@@ -129,19 +130,19 @@ function Introduction() {
                   <FeatureText component="span" variant="h2" mb={1}>
                     400+
                   </FeatureText>
-                  <Typography variant="body1">Components</Typography>
+                  <Typography variant="body1">Miembros</Typography>
                 </Feature>
                 <Feature>
                   <FeatureText component="span" variant="h2" mb={1}>
                     1200+
                   </FeatureText>
-                  <Typography variant="body1">SVG Icons</Typography>
+                  <Typography variant="body1">Transacciones</Typography>
                 </Feature>
                 <Feature>
                   <FeatureText component="span" variant="h2" mb={1}>
                     50+
                   </FeatureText>
-                  <Typography variant="body1">Pages</Typography>
+                  <Typography variant="body1">Publicaciones</Typography>
                 </Feature>
               </Box>
 
@@ -160,9 +161,9 @@ function Introduction() {
                     style={{ width: "40px", background: "#FFF" }}
                   />
                 </Tooltip>
-                <Tooltip title="Material-UI">
+                <Tooltip title="Hubi">
                   <BrandIcon
-                    alt="Material-UI"
+                    alt="Hubi"
                     src="/static/img/brands/material-ui.svg"
                     style={{ width: "40px" }}
                   />
@@ -190,8 +191,8 @@ function Introduction() {
             <ImageWrapper>
               <NavLink to="/dashboard/analytics" target="_blank">
                 <Image
-                  alt="Material App - React Admin Template"
-                  src={`/static/img/screenshots/dashboard-analytics-large.jpg`}
+                  alt="Hubi - React Admin Template"
+                  src={`/static/img/unsplash/people.jpg`}
                 />
               </NavLink>
             </ImageWrapper>

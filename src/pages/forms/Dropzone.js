@@ -41,8 +41,8 @@ function DefaultDropzone() {
           Default Dropzone
         </Typography>
         <Typography variant="body2" gutterBottom>
-          Material-UI-Dropzone is a React component using Material-UI and is
-          based on the excellent react-dropzone library.
+          Hubi-Dropzone is a React component using Hubi and is based on the
+          excellent react-dropzone library.
         </Typography>
 
         <Spacer mb={4} />
@@ -69,8 +69,8 @@ function DialogDropzone() {
           Dialog Dropzone
         </Typography>
         <Typography variant="body2" gutterBottom>
-          Material-UI-Dropzone is a React component using Material-UI and is
-          based on the excellent react-dropzone library.
+          Hubi-Dropzone is a React component using Hubi and is based on the
+          excellent react-dropzone library.
         </Typography>
 
         <Spacer mb={4} />

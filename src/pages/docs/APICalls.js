@@ -31,7 +31,7 @@ function Introduction() {
       </Typography>
       <Typography variant="subtitle1" gutterBottom my={4}>
         A common use case for code actions is to make API calls to external
-        services. Material App includes{" "}
+        services. Hubi includes{" "}
         <a
           href="https://github.com/axios/axios"
           target="_blank"

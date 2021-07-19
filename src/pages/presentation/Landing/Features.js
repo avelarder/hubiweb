@@ -68,41 +68,41 @@ function Features() {
     <Wrapper py={20}>
       <Container>
         <TypographyOverline variant="body2" gutterBottom>
-          Features
+          Características
         </TypographyOverline>
         <Typography variant="h2" component="h3" gutterBottom>
-          Developers love Material App
+          Qué ofrecemos?
         </Typography>
         <Box mb={8} />
         <Grid container spacing={6}>
           <Feature
             Icon={CodeIcon}
-            title="Built for Developers"
-            description="Material App is built to make your life easier. Theme provider, build tooling, documentation, and 400+ components. "
+            title="Servicio 1"
+            description="Hubi is built to make your life easier. Theme provider, build tooling, documentation, and 400+ components. "
           />
           <Feature
             Icon={PlusCircleIcon}
-            title="Multiple Plugins"
+            title="Servicio 2"
             description="Various third-party plugins are fully integrated, like Chart.js, FullCalendar, WYSIWYG Editors, Formik and Yup."
           />
           <Feature
             Icon={MailIcon}
-            title="Dev-to-Dev Support"
+            title="Servicio 3"
             description="Our themes are supported by specialists who provide quick and effective support. Usually an email reply takes <24h."
           />
           <Feature
             Icon={UsersIcon}
-            title="Authentication Examples"
+            title="Servicio 4"
             description="The package comes with fully working authentication examples, using Redux, Axios and Axios Mock Adapter."
           />
           <Feature
             Icon={BookOpenIcon}
-            title="Detailed Documentation"
+            title="Servicio 5"
             description="We've written extensive documentation for the plugins and tools we're using, varying from Redux to ESLint."
           />
           <Feature
             Icon={FigmaIcon}
-            title="Figma/Sketch Assets"
+            title="Servicio 6"
             description="Designers, we've got you covered. Sketch & Figma files are available in the Standard Plus and Extended License."
           />
         </Grid>

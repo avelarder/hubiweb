@@ -48,8 +48,8 @@ function Support() {
             <Typography variant="subtitle1" gutterBottom my={4}>
               Our support mainly covers pre-sale questions, basic theme
               questions and bug reports through our support email:{" "}
-              <Link href="mailto:support@bootlab.io">support@bootlab.io</Link>.
-              To be eligible to request the technical support you must have
+              <Link href="mailto:support@hubi.lam">support@hubi.lam</Link>. To
+              be eligible to request the technical support you must have
               purchased the theme and have at least one Standard, Standard Plus
               or Extended License.
               <br />

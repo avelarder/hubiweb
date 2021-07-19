@@ -30,9 +30,9 @@ function Introduction() {
         Introduction
       </Typography>
       <Typography variant="subtitle1" gutterBottom my={4}>
-        This theme uses Material-UI in combination with Styled-Components. On
-        this page we try to cover the basics on how to adjust the color palette
-        and other styles.
+        This theme uses Hubi in combination with Styled-Components. On this page
+        we try to cover the basics on how to adjust the color palette and other
+        styles.
       </Typography>
     </Box>
   );
@@ -45,7 +45,7 @@ function HowItWorks() {
         How it works
       </Typography>
       <Typography variant="subtitle1" gutterBottom my={4}>
-        Material-UI's{" "}
+        Hubi's{" "}
         <Link
           href="https://material-ui.com/customization/theming/#createmuitheme-options-args-theme"
           target="_blank"
@@ -53,10 +53,10 @@ function HowItWorks() {
         >
           createMuiTheme
         </Link>{" "}
-        is used to extend Material-UI's default styling. Material App is using
-        both the Material-UI ThemeProvider as Styled-Components ThemeProvider.
-        This way, global theme variables will be applied to both Material-UI's
-        components as custom Styled-Components.
+        is used to extend Hubi's default styling. Hubi is using both the Hubi
+        ThemeProvider as Styled-Components ThemeProvider. This way, global theme
+        variables will be applied to both Hubi's components as custom
+        Styled-Components.
       </Typography>
       <Typography variant="subtitle1" gutterBottom my={4}>
         How to access theme variables from a component:

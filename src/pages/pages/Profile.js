@@ -182,9 +182,7 @@ function About() {
           </Grid>
           <Grid item>
             Lives in{" "}
-            <Link href="https://material-app.bootlab.io/">
-              San Fransisco, SA
-            </Link>
+            <Link href="https://material-app.hubi.lam/">San Fransisco, SA</Link>
           </Grid>
         </Grid>
         <Grid container direction="row" alignItems="center" mb={2}>
@@ -195,7 +193,7 @@ function About() {
           </Grid>
           <Grid item>
             Works at{" "}
-            <Link href="https://material-app.bootlab.io/">Material UI</Link>
+            <Link href="https://material-app.hubi.lam/">Material UI</Link>
           </Grid>
         </Grid>
         <Grid container direction="row" alignItems="center">
@@ -205,7 +203,7 @@ function About() {
             </AboutIcon>
           </Grid>
           <Grid item>
-            Lives in <Link href="https://material-app.bootlab.io/">Boston</Link>
+            Lives in <Link href="https://material-app.hubi.lam/">Boston</Link>
           </Grid>
         </Grid>
       </CardContent>
@@ -230,7 +228,7 @@ function Elsewhere() {
             </AboutIcon>
           </Grid>
           <Grid item>
-            <Link href="https://material-app.bootlab.io/">lucylavender.io</Link>
+            <Link href="https://material-app.hubi.lam/">lucylavender.io</Link>
           </Grid>
         </Grid>
         <Grid container direction="row" alignItems="center" mb={2}>
@@ -240,7 +238,7 @@ function Elsewhere() {
             </AboutIcon>
           </Grid>
           <Grid item>
-            <Link href="https://material-app.bootlab.io/">Twitter</Link>
+            <Link href="https://material-app.hubi.lam/">Twitter</Link>
           </Grid>
         </Grid>
         <Grid container direction="row" alignItems="center" mb={2}>
@@ -250,7 +248,7 @@ function Elsewhere() {
             </AboutIcon>
           </Grid>
           <Grid item>
-            <Link href="https://material-app.bootlab.io/">Facebook</Link>
+            <Link href="https://material-app.hubi.lam/">Facebook</Link>
           </Grid>
         </Grid>
         <Grid container direction="row" alignItems="center">
@@ -260,7 +258,7 @@ function Elsewhere() {
             </AboutIcon>
           </Grid>
           <Grid item>
-            <Link href="https://material-app.bootlab.io/">Instagram</Link>
+            <Link href="https://material-app.hubi.lam/">Instagram</Link>
           </Grid>
         </Grid>
       </CardContent>
@@ -383,7 +381,7 @@ function Products() {
               </TableRow>
               <TableRow>
                 <TableCell component="th" scope="row">
-                  Material App
+                  Hubi
                 </TableCell>
                 <TableCell>
                   <ProductsChip

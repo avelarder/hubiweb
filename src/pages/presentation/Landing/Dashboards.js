@@ -66,42 +66,7 @@ const Demo = ({ to, title, img, newDemo = false }) => {
 };
 
 function Dashboards() {
-  return (
-    <Wrapper py={20}>
-      <Container>
-        <TypographyOverline variant="body2" gutterBottom>
-          Demos
-        </TypographyOverline>
-        <Typography variant="h2" component="h3" gutterBottom>
-          Multiple dashboards
-        </Typography>
-        <Typography variant="subtitle1" color="textSecondary" gutterBottom>
-          The package includes 50+ prebuilt pages, 6 theme variants and 3
-          prebuilt dashboards.
-        </Typography>
-        <Box mb={8} />
-
-        <Grid container spacing={6}>
-          <Demo
-            to="/dashboard/default"
-            title="Default dashboard"
-            img="dashboard-default"
-          />
-          <Demo
-            to="/dashboard/analytics"
-            title="Analytics dashboard"
-            img="dashboard-analytics"
-          />
-          <Demo
-            to="/dashboard/saas"
-            title="SaaS dashboard"
-            img="dashboard-saas"
-            newDemo
-          />
-        </Grid>
-      </Container>
-    </Wrapper>
-  );
+  return <></>;
 }
 
 export default Dashboards;

@@ -56,7 +56,7 @@ function SignIn() {
 
       <Formik
         initialValues={{
-          email: "demo@bootlab.io",
+          email: "demo@hubi.lam",
           password: "unsafepassword",
           submit: false,
         }}
@@ -93,7 +93,7 @@ function SignIn() {
         }) => (
           <form noValidate onSubmit={handleSubmit}>
             <Alert mt={3} mb={1} severity="info">
-              Use <strong>demo@bootlab.io</strong> and{" "}
+              Use <strong>demo@hubi.lam</strong> and{" "}
               <strong>unsafepassword</strong> to sign in
             </Alert>
             {errors.submit && (

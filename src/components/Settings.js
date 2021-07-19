@@ -168,7 +168,7 @@ function Demos() {
           target="_blank"
           fullWidth={true}
         >
-          Get Material App
+          Get Hubi
         </Button>
       </Box>
     </Wrapper>
