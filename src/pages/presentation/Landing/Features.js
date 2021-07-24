@@ -42,7 +42,12 @@ const FeatureIcon = styled.div`
     color: ${(props) => props.theme.palette.primary.main};
   }
 `;
-
+const Subtitle = styled(Typography)`
+  font-size: ${(props) => props.theme.typography.h6.fontSize};
+  font-weight: ${(props) => props.theme.typography.fontWeightRegular};
+  font-family: ${(props) => props.theme.typography.fontFamily};
+  margin: ${(props) => props.theme.spacing(2)}px 0;
+`;
 const Feature = ({ Icon, title, description }) => {
   return (
     <Grid item xs={12} sm={6} md={4} lg={4}>
@@ -73,6 +78,18 @@ function Features() {
         <Typography variant="h2" component="h3" gutterBottom>
           Qué ofrecemos?
         </Typography>
+        <Grid container justify="center" spacing={4}>
+          <Grid item xs={12} lg={10}>
+            <Subtitle color="textSecondary">
+              Hubi, es una poderosa herramienta basada en la nube que aporta
+              soluciones creativas para el manejo de condominios y edificios que
+              optimizan tu propiedad creando lugares de bienestar y comunidad.
+            </Subtitle>
+            <Subtitle color="textSecondary">
+              Aquí algunos de los servicios que ofrecemos.
+            </Subtitle>
+          </Grid>
+        </Grid>
         <Box mb={8} />
         <Grid container spacing={6}>
           <Feature

@@ -136,7 +136,7 @@ function Introduction() {
                   <FeatureText component="span" variant="h2" mb={1}>
                     1200+
                   </FeatureText>
-                  <Typography variant="body1">Transacciones</Typography>
+                  <Typography variant="body1">Operaciones</Typography>
                 </Feature>
                 <Feature>
                   <FeatureText component="span" variant="h2" mb={1}>
@@ -144,45 +144,13 @@ function Introduction() {
                   </FeatureText>
                   <Typography variant="body1">Publicaciones</Typography>
                 </Feature>
+                <Feature>
+                  <FeatureText component="span" variant="h2" mb={1}>
+                    250+
+                  </FeatureText>
+                  <Typography variant="body1">Propiedades</Typography>
+                </Feature>
               </Box>
-
-              <BrandIcons my={4}>
-                <Tooltip title="JavaScript">
-                  <BrandIcon
-                    alt="JavaScript"
-                    src="/static/img/brands/javascript.svg"
-                    style={{ width: "40px" }}
-                  />
-                </Tooltip>
-                <Tooltip title="TypeScript">
-                  <BrandIcon
-                    alt="TypeScript"
-                    src="/static/img/brands/typescript.svg"
-                    style={{ width: "40px", background: "#FFF" }}
-                  />
-                </Tooltip>
-                <Tooltip title="Hubi">
-                  <BrandIcon
-                    alt="Hubi"
-                    src="/static/img/brands/material-ui.svg"
-                    style={{ width: "40px" }}
-                  />
-                </Tooltip>
-                <Tooltip title="React">
-                  <BrandIcon
-                    alt="React"
-                    src="/static/img/brands/react.svg"
-                    style={{ width: "45px" }}
-                  />
-                </Tooltip>
-                <Tooltip title="Redux">
-                  <BrandIcon
-                    alt="Redux"
-                    src="/static/img/brands/redux.svg"
-                    style={{ width: "35px" }}
-                  />
-                </Tooltip>
-              </BrandIcons>
             </Content>
           </Grid>
         </Grid>

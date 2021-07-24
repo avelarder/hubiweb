@@ -5,6 +5,7 @@ import {
   Button,
   Container,
   Grid,
+  TextField,
   Typography as MuiTypography,
 } from "@material-ui/core";
 
@@ -36,22 +37,27 @@ function JoinUs() {
         <Grid container alignItems="center" justify="center">
           <Grid item xs={12} md={6} lg={6} xl={6}>
             <Typography variant="h2" gutterBottom>
-              Get Hubi and start saving time
+              Únete a Nosotros
             </Typography>
             <Subtitle variant="h5" gutterBottom>
-              Stop wasting time building your application from scratch. Material
-              App is fast, extendable and fully customizable.
+              Ingresa a la comunidad, gestiona tu propiedad, vende artículos
+              rápido y fácil.
             </Subtitle>
             <Spacer mb={4} />
-
+            <TextField
+              id="standard-basic"
+              label="Email"
+              placeholder="tu@email.com"
+            />
+            <Spacer mb={4} />
             <Button
-              href="https://material-ui.com/store/items/material-app/"
+              href="#"
               variant="contained"
               color="primary"
               size="large"
               target="_blank"
             >
-              Get Hubi
+              Registrar
             </Button>
           </Grid>
         </Grid>

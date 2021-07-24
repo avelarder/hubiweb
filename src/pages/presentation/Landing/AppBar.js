@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components/macro";
 import { spacing } from "@material-ui/system";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 import {
   AppBar,
@@ -53,22 +53,18 @@ const AppBarComponent = () => (
                   ml={2}
                   color="inherit"
                   component={Link}
-                  to="/dashboard/analytics"
-                  target="_blank"
+                  to="#introduction"
                 >
-                  Live Preview
+                  Inicio
                 </Button>
-                <Button
-                  ml={2}
-                  color="inherit"
-                  component={Link}
-                  to="/documentation/welcome"
-                  target="_blank"
-                >
-                  Documentation
+                <Button ml={2} color="inherit" component={Link} to="#WhyHubi">
+                  Por qué Hubi?
                 </Button>
-                <Button ml={2} color="inherit" href="mailto:info@hubi.lam">
-                  Support
+                <Button ml={2} color="inherit" component={Link} to="#Features">
+                  Plataforma
+                </Button>
+                <Button ml={2} color="inherit" component={Link} to="#joinUs">
+                  Únete a nosotros
                 </Button>
               </Hidden>
               <Button
@@ -78,7 +74,7 @@ const AppBarComponent = () => (
                 href="https://material-ui.com/store/items/material-app/"
                 target="_blank"
               >
-                Get Hubi
+                Comienza tu prueba gratuita
               </Button>
             </Grid>
           </Grid>
