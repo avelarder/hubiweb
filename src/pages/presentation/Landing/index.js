@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Grid,
-  Box,
-  Container,
-  Typography as MuiTypography,
-} from "@material-ui/core";
+import { Grid, Box, Typography as MuiTypography } from "@material-ui/core";
 import styled from "styled-components/macro";
 import AppBar from "./AppBar";
 import Introduction from "./Introduction";

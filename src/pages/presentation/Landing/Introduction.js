@@ -6,7 +6,6 @@ import {
   Box,
   Container,
   Grid,
-  Tooltip,
   Typography as MuiTypography,
 } from "@material-ui/core";
 
@@ -83,14 +82,6 @@ const Subtitle = styled(Typography)`
   font-weight: ${(props) => props.theme.typography.fontWeightRegular};
   font-family: ${(props) => props.theme.typography.fontFamily};
   margin: ${(props) => props.theme.spacing(2)}px 0;
-`;
-
-const BrandIcons = styled.div(spacing);
-
-const BrandIcon = styled.img`
-  vertical-align: middle;
-  margin-right: ${(props) => props.theme.spacing(3)}px;
-  height: auto;
 `;
 
 const Feature = styled.div`
