@@ -6,41 +6,12 @@ import { Button, Box, Container, Grid, Typography } from "@material-ui/core";
 
 import { spacing } from "@material-ui/system";
 
-import {
-  Mail as MailIcon,
-  Code as CodeIcon,
-  Users as UsersIcon,
-  Figma as FigmaIcon,
-  BookOpen as BookOpenIcon,
-  PlusCircle as PlusCircleIcon,
-} from "react-feather";
-
-import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
-import CardMedia from "@material-ui/core/CardMedia";
+import FeatureCard from "./components/FeatureCard";
 
 const Wrapper = styled.div`
   ${spacing};
   background: ${(props) => props.theme.palette.background.paper};
   text-align: center;
-`;
-const Media = styled.div`
-  height: 100;
-`;
-
-const FeatureWrapper = styled.div`
-  display: flex;
-  text-align: left;
-  padding: 18px 20px;
-`;
-
-const FeatureIcon = styled.div`
-  svg {
-    flex-shrink: 0;
-    width: auto;
-    height: 50px;
-    width: 50px;
-    color: ${(props) => props.theme.palette.primary.main};
-  }
 `;
 const Subtitle = styled(Typography)`
   font-size: ${(props) => props.theme.typography.h6.fontSize};
@@ -48,28 +19,14 @@ const Subtitle = styled(Typography)`
   font-family: ${(props) => props.theme.typography.fontFamily};
   margin: ${(props) => props.theme.spacing(2)}px 0;
 `;
-const Feature = ({ Icon, title, description }) => {
+const Feature = ({ image, title, description }) => {
   return (
     <Grid item xs={12} sm={6} md={4} lg={4}>
-      <FeatureWrapper>
-        <FeatureIcon>
-          <Media>
-            <CardMedia
-              height="100px"
-              image="/static/img/features/access-control.jpg"
-              title="Access control"
-            />
-          </Media>
-        </FeatureIcon>
-        <Box ml={6}>
-          <Typography variant="h4" gutterBottom>
-            {title}
-          </Typography>
-          <Typography variant="subtitle1" color="textSecondary">
-            {description}
-          </Typography>
-        </Box>
-      </FeatureWrapper>
+      <FeatureCard
+        image={image}
+        title={title}
+        description={description}
+      ></FeatureCard>
     </Grid>
   );
 };
@@ -96,37 +53,37 @@ function Features() {
         <Box mb={8} />
         <Grid container spacing={6}>
           <Feature
-            Icon={SupervisorAccountIcon}
+            image="/static/img/features/visitors.jpg"
             title="Registro de Visitantes"
             description="Acelere el proceso de registro de visitantes al tiempo que garantiza que se cumplan los protocolos de seguridad y protección."
           />
           <Feature
-            Icon={PlusCircleIcon}
+            image="/static/img/features/services.jpg"
             title="Solicitud de Servicios"
             description="Ayudamos a inquilinos a comuinicarse con sus administradores de edificios, coordinar órdenes de trabajo, servicios de limpieza y más."
           />
           <Feature
-            Icon={MailIcon}
+            image="/static/img/features/access-control.jpg"
             title="Control de Acceso"
             description="Permita que los inquilinos accedan a sus edificios con sólo un toque en su teléfono."
           />
           <Feature
-            Icon={UsersIcon}
+            image="/static/img/features/emergency.jpg"
             title="Comunicaciones de Emergencia"
             description="Comunique información de seguridad crítica a los ocupantes de su edificio."
           />
           <Feature
-            Icon={BookOpenIcon}
+            image="/static/img/features/package.jpg"
             title="Trackings de paquetes"
             description="Avisos de seguimiento de paquetes."
           />
           <Feature
-            Icon={FigmaIcon}
+            image="/static/img/features/sell.jpg"
             title="Avisos de Venta y Alquiler de Propiedades."
             description="Ayudamos a que tu propiedad se venda rápidamente."
           />
           <Feature
-            Icon={FigmaIcon}
+            image="/static/img/features/analytics.jpg"
             title="Otros"
             description="Analítica de ahorro y sostenibilidad, plataforma en la nube, integración con otras apps."
           />
