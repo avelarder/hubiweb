@@ -6,41 +6,12 @@ import { Button, Box, Container, Grid, Typography } from "@material-ui/core";
 
 import { spacing } from "@material-ui/system";
 
-import {
-  Mail as MailIcon,
-  Code as CodeIcon,
-  Users as UsersIcon,
-  Figma as FigmaIcon,
-  BookOpen as BookOpenIcon,
-  PlusCircle as PlusCircleIcon,
-} from "react-feather";
+import FeatureCard from "./components/FeatureCard";
 
 const Wrapper = styled.div`
   ${spacing};
   background: ${(props) => props.theme.palette.background.paper};
   text-align: center;
-`;
-
-const TypographyOverline = styled(Typography)`
-  text-transform: uppercase;
-  color: ${(props) => props.theme.palette.primary.main};
-  font-weight: ${(props) => props.theme.typography.fontWeightMedium};
-`;
-
-const FeatureWrapper = styled.div`
-  display: flex;
-  text-align: left;
-  padding: 18px 20px;
-`;
-
-const FeatureIcon = styled.div`
-  svg {
-    flex-shrink: 0;
-    width: auto;
-    height: 32px;
-    width: 32px;
-    color: ${(props) => props.theme.palette.primary.main};
-  }
 `;
 const Subtitle = styled(Typography)`
   font-size: ${(props) => props.theme.typography.h6.fontSize};
@@ -48,22 +19,14 @@ const Subtitle = styled(Typography)`
   font-family: ${(props) => props.theme.typography.fontFamily};
   margin: ${(props) => props.theme.spacing(2)}px 0;
 `;
-const Feature = ({ Icon, title, description }) => {
+const Feature = ({ image, title, description }) => {
   return (
     <Grid item xs={12} sm={6} md={4} lg={4}>
-      <FeatureWrapper>
-        <FeatureIcon>
-          <Icon />
-        </FeatureIcon>
-        <Box ml={6}>
-          <Typography variant="h4" gutterBottom>
-            {title}
-          </Typography>
-          <Typography variant="subtitle1" color="textSecondary">
-            {description}
-          </Typography>
-        </Box>
-      </FeatureWrapper>
+      <FeatureCard
+        image={image}
+        title={title}
+        description={description}
+      ></FeatureCard>
     </Grid>
   );
 };
@@ -72,9 +35,6 @@ function Features() {
   return (
     <Wrapper py={20}>
       <Container>
-        <TypographyOverline variant="body2" gutterBottom>
-          Características
-        </TypographyOverline>
         <Typography variant="h2" component="h3" gutterBottom>
           Qué ofrecemos?
         </Typography>
@@ -93,34 +53,39 @@ function Features() {
         <Box mb={8} />
         <Grid container spacing={6}>
           <Feature
-            Icon={CodeIcon}
-            title="Servicio 1"
-            description="Hubi is built to make your life easier. Theme provider, build tooling, documentation, and 400+ components. "
+            image="/static/img/features/visitors.jpg"
+            title="Registro de Visitantes"
+            description="Acelere el proceso de registro de visitantes al tiempo que garantiza que se cumplan los protocolos de seguridad y protección."
           />
           <Feature
-            Icon={PlusCircleIcon}
-            title="Servicio 2"
-            description="Various third-party plugins are fully integrated, like Chart.js, FullCalendar, WYSIWYG Editors, Formik and Yup."
+            image="/static/img/features/services.jpg"
+            title="Solicitud de Servicios"
+            description="Ayudamos a inquilinos a comuinicarse con sus administradores de edificios, coordinar órdenes de trabajo, servicios de limpieza y más."
           />
           <Feature
-            Icon={MailIcon}
-            title="Servicio 3"
-            description="Our themes are supported by specialists who provide quick and effective support. Usually an email reply takes <24h."
+            image="/static/img/features/access-control.jpg"
+            title="Control de Acceso"
+            description="Permita que los inquilinos accedan a sus edificios con sólo un toque en su teléfono."
           />
           <Feature
-            Icon={UsersIcon}
-            title="Servicio 4"
-            description="The package comes with fully working authentication examples, using Redux, Axios and Axios Mock Adapter."
+            image="/static/img/features/emergency.jpg"
+            title="Comunicaciones de Emergencia"
+            description="Comunique información de seguridad crítica a los ocupantes de su edificio."
           />
           <Feature
-            Icon={BookOpenIcon}
-            title="Servicio 5"
-            description="We've written extensive documentation for the plugins and tools we're using, varying from Redux to ESLint."
+            image="/static/img/features/package.jpg"
+            title="Trackings de paquetes"
+            description="Avisos de seguimiento de paquetes."
           />
           <Feature
-            Icon={FigmaIcon}
-            title="Servicio 6"
-            description="Designers, we've got you covered. Sketch & Figma files are available in the Standard Plus and Extended License."
+            image="/static/img/features/sell.jpg"
+            title="Avisos de Venta y Alquiler de Propiedades."
+            description="Ayudamos a que tu propiedad se venda rápidamente."
+          />
+          <Feature
+            image="/static/img/features/analytics.jpg"
+            title="Otros"
+            description="Analítica de ahorro y sostenibilidad, plataforma en la nube, integración con otras apps."
           />
         </Grid>
 
