@@ -15,16 +15,16 @@ import {
   PlusCircle as PlusCircleIcon,
 } from "react-feather";
 
+import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
+import CardMedia from "@material-ui/core/CardMedia";
+
 const Wrapper = styled.div`
   ${spacing};
   background: ${(props) => props.theme.palette.background.paper};
   text-align: center;
 `;
-
-const TypographyOverline = styled(Typography)`
-  text-transform: uppercase;
-  color: ${(props) => props.theme.palette.primary.main};
-  font-weight: ${(props) => props.theme.typography.fontWeightMedium};
+const Media = styled.div`
+  height: 100;
 `;
 
 const FeatureWrapper = styled.div`
@@ -37,8 +37,8 @@ const FeatureIcon = styled.div`
   svg {
     flex-shrink: 0;
     width: auto;
-    height: 32px;
-    width: 32px;
+    height: 50px;
+    width: 50px;
     color: ${(props) => props.theme.palette.primary.main};
   }
 `;
@@ -53,7 +53,13 @@ const Feature = ({ Icon, title, description }) => {
     <Grid item xs={12} sm={6} md={4} lg={4}>
       <FeatureWrapper>
         <FeatureIcon>
-          <Icon />
+          <Media>
+            <CardMedia
+              height="100px"
+              image="/static/img/features/access-control.jpg"
+              title="Access control"
+            />
+          </Media>
         </FeatureIcon>
         <Box ml={6}>
           <Typography variant="h4" gutterBottom>
@@ -72,9 +78,6 @@ function Features() {
   return (
     <Wrapper py={20}>
       <Container>
-        <TypographyOverline variant="body2" gutterBottom>
-          Características
-        </TypographyOverline>
         <Typography variant="h2" component="h3" gutterBottom>
           Qué ofrecemos?
         </Typography>
@@ -93,34 +96,39 @@ function Features() {
         <Box mb={8} />
         <Grid container spacing={6}>
           <Feature
-            Icon={CodeIcon}
-            title="Servicio 1"
-            description="Hubi is built to make your life easier. Theme provider, build tooling, documentation, and 400+ components. "
+            Icon={SupervisorAccountIcon}
+            title="Registro de Visitantes"
+            description="Acelere el proceso de registro de visitantes al tiempo que garantiza que se cumplan los protocolos de seguridad y protección."
           />
           <Feature
             Icon={PlusCircleIcon}
-            title="Servicio 2"
-            description="Various third-party plugins are fully integrated, like Chart.js, FullCalendar, WYSIWYG Editors, Formik and Yup."
+            title="Solicitud de Servicios"
+            description="Ayudamos a inquilinos a comuinicarse con sus administradores de edificios, coordinar órdenes de trabajo, servicios de limpieza y más."
           />
           <Feature
             Icon={MailIcon}
-            title="Servicio 3"
-            description="Our themes are supported by specialists who provide quick and effective support. Usually an email reply takes <24h."
+            title="Control de Acceso"
+            description="Permita que los inquilinos accedan a sus edificios con sólo un toque en su teléfono."
           />
           <Feature
             Icon={UsersIcon}
-            title="Servicio 4"
-            description="The package comes with fully working authentication examples, using Redux, Axios and Axios Mock Adapter."
+            title="Comunicaciones de Emergencia"
+            description="Comunique información de seguridad crítica a los ocupantes de su edificio."
           />
           <Feature
             Icon={BookOpenIcon}
-            title="Servicio 5"
-            description="We've written extensive documentation for the plugins and tools we're using, varying from Redux to ESLint."
+            title="Trackings de paquetes"
+            description="Avisos de seguimiento de paquetes."
           />
           <Feature
             Icon={FigmaIcon}
-            title="Servicio 6"
-            description="Designers, we've got you covered. Sketch & Figma files are available in the Standard Plus and Extended License."
+            title="Avisos de Venta y Alquiler de Propiedades."
+            description="Ayudamos a que tu propiedad se venda rápidamente."
+          />
+          <Feature
+            Icon={FigmaIcon}
+            title="Otros"
+            description="Analítica de ahorro y sostenibilidad, plataforma en la nube, integración con otras apps."
           />
         </Grid>
 
