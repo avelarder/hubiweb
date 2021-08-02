@@ -71,7 +71,7 @@ const AppBarComponent = () => (
                 ml={2}
                 color="primary"
                 variant="contained"
-                href="https://material-ui.com/store/items/material-app/"
+                href="https://hubiapp.vercel.app/"
                 target="_blank"
               >
                 Comienza tu prueba gratuita
