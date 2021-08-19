@@ -71,10 +71,10 @@ const AppBarComponent = () => (
                 ml={2}
                 color="primary"
                 variant="contained"
-                href="https://hubiapp.vercel.app/"
+                href="https://hubiapp.vercel.app/login"
                 target="_blank"
               >
-                Comienza tu prueba gratuita
+                Inicia sesión
               </Button>
             </Grid>
           </Grid>
