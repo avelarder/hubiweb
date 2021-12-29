@@ -34,7 +34,7 @@ function JoinUs() {
   return (
     <Wrapper pt={16} pb={16}>
       <Container>
-        <Grid container alignItems="center" justify="center">
+        <Grid container alignItems="center" justifyContent="center">
           <Grid item xs={12} md={6} lg={6} xl={6}>
             <Typography variant="h2" gutterBottom>
               Únete a Nosotros

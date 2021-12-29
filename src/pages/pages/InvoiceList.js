@@ -456,7 +456,7 @@ function InvoiceList() {
     <React.Fragment>
       <Helmet title="Invoices" />
 
-      <Grid justify="space-between" container spacing={24}>
+      <Grid justifyContent="space-between" container spacing={24}>
         <Grid item>
           <Typography variant="h3" gutterBottom display="inline">
             Invoices

@@ -56,7 +56,7 @@ function Footer() {
             </List>
           </Grid>
         </Hidden>
-        <Grid container item xs={12} md={6} justify="flex-end">
+        <Grid container item xs={12} md={6} justifyContent="flex-end">
           <List>
             <ListItem button={true}>
               <ListItemText primary={`© ${new Date().getFullYear()} - Hubi`} />

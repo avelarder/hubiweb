@@ -98,13 +98,13 @@ function Introduction() {
   return (
     <Wrapper>
       <Container>
-        <Grid container alignItems="center" justify="center" spacing={4}>
+        <Grid container alignItems="center" justifyContent="center" spacing={4}>
           <Grid item xs={12} sm={9} md={8} lg={7}>
             <Content>
               <Title variant="h1" gutterBottom>
                 <span>Hubi</span> Tu comunidad en línea.
               </Title>
-              <Grid container justify="center" spacing={4}>
+              <Grid container justifyContent="center" spacing={4}>
                 <Grid item xs={12} lg={10}>
                   <Subtitle color="textSecondary">
                     Hubi tiene la misión de generar un comunidad de propietarios
@@ -145,7 +145,7 @@ function Introduction() {
             </Content>
           </Grid>
         </Grid>
-        <Grid container alignItems="center" justify="center" spacing={4}>
+        <Grid container alignItems="center" justifyContent="center" spacing={4}>
           <Grid item xs={12} sm={10} md={9} lg={9}>
             <ImageWrapper>
               <NavLink to="/dashboard/analytics" target="_blank">

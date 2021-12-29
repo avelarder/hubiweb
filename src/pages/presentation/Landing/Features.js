@@ -38,7 +38,7 @@ function Features() {
         <Typography variant="h2" component="h3" gutterBottom>
           Qué ofrecemos?
         </Typography>
-        <Grid container justify="center" spacing={4}>
+        <Grid container justifyContent="center" spacing={4}>
           <Grid item xs={12} lg={10}>
             <Subtitle color="textSecondary">
               Hubi, es una poderosa herramienta basada en la nube que aporta

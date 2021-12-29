@@ -69,7 +69,7 @@ function Pricing() {
         </Typography>
       </Header>
 
-      <Grid container justify="center">
+      <Grid container justifyContent="center">
         <Grid item xs={12} lg={10}>
           <Grid container spacing={6} alignItems="flex-end">
             <Grid item xs={12} md={4}>

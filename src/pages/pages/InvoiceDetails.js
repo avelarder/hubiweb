@@ -64,7 +64,7 @@ function InvoiceDetails() {
 
       <Divider my={6} />
 
-      <Grid container justify="center">
+      <Grid container justifyContent="center">
         <Grid item xs={12} lg={10}>
           <Shadow>
             <Card px={6} pt={6}>

@@ -1,4 +1,4 @@
-import { createMuiTheme } from "@material-ui/core/styles";
+import { createTheme } from "@material-ui/core/styles";
 import variants from "./variants";
 import typography from "./typography";
 import overrides from "./overrides";
@@ -6,7 +6,7 @@ import breakpoints from "./breakpoints";
 import props from "./props";
 import shadows from "./shadows";
 
-const createTheme = (name) => {
+const CreateTheme = (name) => {
   let themeConfig = variants.find((variant) => variant.name === name);
 
   if (!themeConfig) {
@@ -14,7 +14,7 @@ const createTheme = (name) => {
     themeConfig = variants[0];
   }
 
-  return createMuiTheme(
+  return createTheme(
     {
       spacing: 4,
       breakpoints: breakpoints,
@@ -33,4 +33,4 @@ const createTheme = (name) => {
   );
 };
 
-export default createTheme;
+export default CreateTheme;

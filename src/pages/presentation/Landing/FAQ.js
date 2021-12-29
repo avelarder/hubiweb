@@ -76,7 +76,7 @@ function FAQ() {
         </Typography>
         <Spacer mb={8} />
 
-        <Grid container alignItems="center" justify="center">
+        <Grid container alignItems="center" justifyContent="center">
           <Grid item xs={12} xl={8}>
             <Accordion>
               <AccordionSummary

@@ -156,7 +156,7 @@ function APICalls() {
     <React.Fragment>
       <Helmet title="API Calls" />
 
-      <Grid container spacing={6} justify="center">
+      <Grid container spacing={6} justifyContent="center">
         <Grid item xs={12} lg={9} xl={7}>
           <Typography variant="h2" gutterBottom display="inline">
             API Calls

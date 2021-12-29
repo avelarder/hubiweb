@@ -1,8 +1,9 @@
 import React from "react";
 import { Grid, Box, Typography as MuiTypography } from "@material-ui/core";
 import styled from "styled-components/macro";
-import AppBar from "./AppBar";
+
 import Introduction from "./Introduction";
+import CustomAppBar from "./CustomAppBar";
 import Features from "./Features";
 import FAQ from "./FAQ";
 import JoinUs from "./JoinUs";
@@ -31,19 +32,25 @@ const Subtitle = styled(Typography)`
 function Presentation() {
   return (
     <React.Fragment>
-      <AppBar />
+      <CustomAppBar />
+      {/* <AppBar /> */}
       <section id="introduction">
         <Introduction />
       </section>
       <section id="WhyHubi">
         <Wrapper py={20}>
-          <Grid container alignItems="center" justify="center" spacing={4}>
+          <Grid
+            container
+            alignItems="center"
+            justifyContent="center"
+            spacing={4}
+          >
             <Grid item xs={12} sm={9} md={8} lg={7}>
               <Content>
                 <Typography variant="h2" component="h3" gutterBottom>
                   Por qué Hubi?
                 </Typography>
-                <Grid container justify="center" spacing={4}>
+                <Grid container justifyContent="center" spacing={4}>
                   <Grid item xs={12} lg={10}>
                     <Subtitle color="textSecondary">
                       <span>Hubi</span>, es el centro de tu comunidad que mejora
